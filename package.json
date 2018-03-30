@@ -1,0 +1,38 @@
+{
+  "name": "autopatch",
+  "version": "0.1.5",
+  "author": "Eric James Foster",
+  "description": "A node program for automatically re-publishing and semver incrementing npm packages/modules.",
+  "main": "index.js",
+  "dependencies": {
+    "elementsJS": "^0.9.18"
+  },
+  "devDependencies": {
+    "assert": "^1.3.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "2.4.5"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejames9/autopatch.git"
+  },
+  "keywords": [
+    "npm",
+    "publish",
+    "auto-publish",
+    "patch",
+    "auto-patch",
+    "package",
+    "update",
+    "auto-update"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ejames9/autopatch/issues"
+  },
+  "homepage": "https://github.com/ejames9/autopatch#readme"
+}
